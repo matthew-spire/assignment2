@@ -1,0 +1,32 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "CS 648 - Assignment 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-spire/assignment2.git"
+  },
+  "author": "Matthew Spire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew-spire/assignment2/issues"
+  },
+  "homepage": "https://github.com/matthew-spire/assignment2#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
