@@ -1,4 +1,4 @@
-# Assignment 1 for CS 648
+# Assignment 2 for CS 648
 
 ## Instructions
 
